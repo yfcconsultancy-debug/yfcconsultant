@@ -59,17 +59,17 @@ def bot_reply(message):
         }
     elif message == "silver":
         return {
-            "text": "🪙 Silver (₹75,000): Best for self-starters. Includes guidance, document templates, and one mock visa interview.",
+            "text": "🪙 Silver: Best for self-starters. Includes guidance, document templates, and one mock visa interview.",
             "buttons": ["Gold", "Platinum", "⬅ Packages"]
         }
     elif message == "gold":
         return {
-            "text": "🥇 Gold (₹1,60,000): Our most popular option. We draft your documents, file up to 5 applications with you, and provide 3 mock interviews.",
+            "text": "🥇 Gold: Our most popular option. We draft your documents, file up to 7 applications with you, and provide 3 mock interviews.",
             "buttons": ["Silver", "Platinum", "⬅ Packages"]
         }
     elif message == "platinum":
         return {
-            "text": "💎 Platinum (₹2,50,000): Our 'done-for-you' solution. We handle everything, from applications to post-arrival support, with many fees included.",
+            "text": "💎 Platinum: Our 'done-for-you' solution. We handle everything, from applications to post-arrival support, with many fees included.",
             "buttons": ["Silver", "Gold", "⬅ Packages"]
         }
     elif message == "compare":
