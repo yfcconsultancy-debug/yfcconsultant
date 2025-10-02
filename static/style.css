@@ -19,7 +19,7 @@ body {
     right: 30px;
     width: 60px;
     height: 60px;
-    background-color: #007bff;
+    background-color: #008080;
     color: white;
     border-radius: 50%;
     display: flex;
@@ -60,7 +60,7 @@ body {
 }
 
 .chat-header {
-    background: #007bff;
+    background: #008080;
     color: white;
     padding: 15px 20px;
     display: flex;
@@ -126,7 +126,7 @@ body {
     align-items: flex-end;
 }
 .user-message .message-bubble {
-    background-color: #007bff;
+    background-color: #008080;
     color: white;
     border-bottom-right-radius: 4px;
 }
@@ -141,8 +141,8 @@ body {
 
 #quick-buttons button {
     background-color: #ffffff;
-    border: 1px solid #007bff;
-    color: #007bff;
+    border: 1px solid #008080;
+    color: #008080;
     border-radius: 20px; /* More rounded */
     padding: 8px 15px; /* Adjusted padding */
     cursor: pointer;
@@ -154,7 +154,7 @@ body {
 }
 
 #quick-buttons button:hover {
-    background-color: #007bff;
+    background-color: #008080;
     color: #ffffff;
 }
 
@@ -176,7 +176,7 @@ body {
 }
 
 #chat-form button {
-    background: #007bff;
+    background: #008080;
     color: white;
     border: none;
     border-radius: 50%;
